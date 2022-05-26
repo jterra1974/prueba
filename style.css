@@ -1,0 +1,38 @@
+/*Esto es un comentrio*/
+/*
+selector {
+    propiedad: valor;
+}
+*/
+
+/* 1- Cascada */
+section p {
+    /*Ingles RGB RGBA HSL HEXA*/
+    color: rgb(12, 1, 14);
+}
+/* 2- Clases */
+.paragraph-blue{
+    color:rgba(224, 222, 235, 0.555);
+}
+/* id */
+#trabajos {
+    background-color: cadetblue;
+}
+/* Especificidad: utilizar class es lo mas recomendable */
+
+body {
+    background-image: url(images/portada_libro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 44px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
